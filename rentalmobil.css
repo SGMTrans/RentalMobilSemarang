@@ -37,7 +37,7 @@ a {
 /* Style for the container with background image */
 .sambutan {
   margin-top: 45px;
-  height: 320px;
+  height: 350px;
   background-image: url(mobilbackground.jpg); /* Replace 'your-image.jpg' with your image path */
   background-size: cover; /* Scale the background image to cover the container */
   background-position: center; /* Center the background image */
@@ -49,7 +49,7 @@ a {
 
 /* Style for the <h4> element */
 .overlay h4 {
-  padding-top: 65px;
+  padding-top: 15px;
   font-size: 28px; /* Set font size to 28 */
  font-family: Sans-Serif;
   padding-bottom: 5px;
@@ -63,10 +63,10 @@ a {
   font-size: 18px; /* Set font size to 14 */
   text-align: justify;
   color: white;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   z-index: 20;
-  padding-top: 35px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -96,7 +96,7 @@ a {
   top: 45px;
   left: 0;
   width: 100%; /* Cover the entire container width */
-  height: 400px; /* Cover the entire container height */
+  height: 435px; /* Cover the entire container height */
   background-color: rgba(0, 0, 0, 0.8); /* Black with 80% transparency */
   z-index: 0; /* Place it below the content and the background image */
 }
@@ -326,3 +326,14 @@ li{
 .ktr{
   font-size: 11px;
 }
+.sambutan img{
+  width: 50%;
+  height: 25%;
+  align-items: center;
+  text-align: center;
+  justify-content: ;
+  padding-right: 25%;
+  padding-left: 25%;
+  padding-top: 10px;
+  
+    }
